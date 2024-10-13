@@ -1,0 +1,92 @@
+/* src/Header.css */
+.header {
+    background: linear-gradient(135deg, #4ca1af 0%, #2c3e50 100%);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8em;
+    color: #f39c12;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+  }
+  
+  /*Dashboard css*/
+  /* src/Dashboard.css */
+.dashboard {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard h1 {
+    font-size: 2.5em;
+    color: #4ca1af;
+  }
+  
+  .dashboard p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .dashboard-card {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dashboard-card h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+  }
+  
+  .dashboard-card p {
+    font-size: 1.1em;
+  }
+  
